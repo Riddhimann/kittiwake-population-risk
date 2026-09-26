@@ -1,0 +1,23 @@
+{
+  "data_sha256": "bd135f90e1bc9bd848ab40e9484668062febe6875b89c668dccba989d738e631",
+  "rows": 36,
+  "start_year": 1949,
+  "end_year": 1984,
+  "initial_population": 138.0,
+  "training_rows": 27,
+  "test_rows": 9,
+  "simulations": 20000,
+  "seed": 42,
+  "primary_horizon": 30,
+  "primary_threshold": 10,
+  "quasi_extinction_rule": "first simulated N <= threshold; absorbing thereafter",
+  "versions": {
+    "numpy": "2.2.4",
+    "pandas": "2.2.3",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1",
+    "openpyxl": "3.1.5",
+    "streamlit": "1.51.0"
+  },
+  "python": "3.13.2"
+}
