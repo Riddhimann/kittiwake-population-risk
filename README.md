@@ -97,7 +97,7 @@ The stochastic candidates only slightly improve holdout MAE over persistence, an
 
 ## Data and scientific boundaries
 
-The supplied workbook has 36 annual observations from 1949 to 1984 and is attributed by the source report to GPDD Main ID 6633. Sampling location, measurement unit, original source URL and data license are not present. The record should be treated as a local population/count index, not global species abundance.
+The supplied workbook has  observations is attributed by the source report to GPDD Main ID 6633. Sampling location, measurement unit, original source URL and data license are not present. The record should be treated as a local population/count index, not global species abundance.
 
 The model omits observation error, age structure, migration, management actions, spatial processes and environmental covariates. Gaussian Euler transitions can be negative; simulations truncate at zero. Forecast bands condition on fitted parameters and therefore understate total uncertainty. See the [methodology](docs/METHODOLOGY.md) before interpreting any probability.
 
@@ -124,8 +124,3 @@ python -m pytest -q
 python scripts/build_notebook.py
 ```
 
-## Attribution
-
-The supplied final report credits **Riddhimann Chattopadhyay**, Department of Statistics, Ramakrishna Mission Residential College (Autonomous), Narendrapur. This repository reconstructs and extends that study. The original report and exploratory notebooks remain outside GitHub because they include student identifiers and hard-coded local paths.
-
-The source dataset's redistribution license was not included. No new ownership claim or data license is inferred.
